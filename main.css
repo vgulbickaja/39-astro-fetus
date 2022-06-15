@@ -1,0 +1,25 @@
+header,
+main,
+footer {
+    display: inline-block;
+    width: 1000px;
+    margin-left: 0 calc(50% - 500px);
+    
+    
+}
+
+img {
+    float: left;
+}
+
+nav {
+    float: right;
+    border: 2px solid red;
+}
+
+a- {
+    color:#333;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 175px;
+}
