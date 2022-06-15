@@ -1,3 +1,8 @@
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header,
 main,
 footer {
@@ -14,12 +19,15 @@ img {
 
 nav {
     float: right;
-    border: 2px solid red;
+
 }
 
-a- {
+a {
     color:#333;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 175px;
+    margin-right: 50px;
 }
+
+a:first-child {
+    margin:0;
