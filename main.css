@@ -15,7 +15,14 @@ footer {
     width: 1000px;
     margin-left: 0 calc(50% - 500px);
     
-    
+body > * {
+    margin-bottom: 60px;
+
+}
+
+body > *:nth-child(2) {
+    margin-bottom: 0;
+}
 }
 
 img {
@@ -27,22 +34,35 @@ nav {
 
 }
 
-a {
+nav > a {
     color:#333;
     text-decoration: none;
     font-size: 20px;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
-a:first-child {
+nav > a:first-child {
     margin:0;
 
 }
 
-    a:hover {
+nav > a:hover {
         text-decoration: underline;
         color: #649;
         cursor: crosshair;
 
 
     }
+main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+div {
+    float: left;
+}
+div > a {
+    background-color: yellowgreen;
+}
+p {
+    float: right;
+}
