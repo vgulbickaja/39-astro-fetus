@@ -5,33 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstroFetus</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <header>
-        <img src="./logo.png" alt="Logo">
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Job</a>
-            <a href="#">Contact</a>
+    <header class="container">
+        <img class="logo" src="./img/logo.png" alt="Logo">
+        <nav class="main-nav">
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Portfolio</a>
+            <a class="link" href="#">Job</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
 
-    <main>
-        MAIN CONTENT
+    <main class="container">
+        <div class="left-column">
+        <h1 class="main-title"><span>404</span> Lost in space</h1>
+        <p class="description">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Fuga, molestias! Eligendi nobis totam, 
+            eum eaque, in dolor ipsum non commodi aliquam vel dignissimos 
+            similique. Voluptates, eos. Voluptate laboriosam ipsum commodi.</p>
+        <a href="#" class="btn">Go home</a>
+        <a href="#" class="btn btn-white">Back</a>
+        </div>
+        <img class="right-column" src="./img/astrotel.png" alt="Astronautas su telefonu">
     </main>
 
-    <footer>
-        FOOTER CONTENT
-    </footer>
-    <div>
-        <a href="#">FB</a>
-        <a href="#">TW</a>
-        <a href="#">IG</a>
-        <a href="#">IN</a>
+    <footer class="container">
+        <div class="socials">
+            <a class="fa fa-facebook-square" href="https://example.com/#facebook" target="_blank"></a>
+            <a class="fa fa-twitter-square" href="https://example.com/#twitter" target="_blank"></a>
+            <a class="fa fa-instagram" href="https://example.com/#instagram" target="_blank"></a>
+            <a class="fa fa-linkedin-square" href="https://example.com/#linkedin" target="_blank"></a>
     </div>
-    <p> &copy; - 2022 All rights reserves</p>
+    <p class="copyright">&copy; 2022 - All rights reserves</p>
+    </footer>
 </body>
+
 </html>
